@@ -1,0 +1,67 @@
+.theme-text-color{color: #FF4800;}
+.theme-bg-color{background: #FF4800;}
+.navbar-brand:hover{color: #FF4800}
+.main-menu li a {
+    padding: 23px 15px!important;
+    font-weight: bolder;
+}
+.main-menu li a:hover{
+    background: #FF4800;
+    color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li a {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+.dropdown-menu li a:hover{
+    background-color: lightgrey;
+}
+.quote-btn:hover{
+    background-color: #b43e11;
+    color: white;
+}
+.read-more-btn:hover{
+    color: #b43e11;
+}
+.banner-section{
+    background-image: url("../img/header.jpg");
+}
+.banner-shadow:after{
+    content: "";
+    background-color: rgba(0, 0,0,.8);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.about-img{
+    height: 370px;
+}
+.bg-lightgray{
+    background-color: #F2F2F4;
+}
+.text-justify{
+    text-align: justify;
+}
+.feature-img{
+    max-width: 100%;
+    height: auto;
+}
+.border-b{
+    border-color: #FF4800!important;
+}
+.bg-footer{
+    background-color: #1f1f2e;
+}
+.social-btn{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+}
+.social-btn:hover{
+    color: #1f1f2e!important;
+}
